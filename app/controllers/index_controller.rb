@@ -1,7 +1,8 @@
 class IndexController < ApplicationController
    
     def home_page
-        @gossips = Gossip.all   
+        @gossips = Gossip.all 
+        @users = User.all  
     end
 
     def register_page     

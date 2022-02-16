@@ -23,3 +23,17 @@ form{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+
+.form-group {
+    resize: none;
+ }
+
+
+.new_is_ok_banner{
+    background-color: green;
+}
+
+.main{
+    padding: 20px
+}
