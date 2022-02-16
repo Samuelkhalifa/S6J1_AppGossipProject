@@ -20,5 +20,9 @@ Rails.application.routes.draw do
   
     #Controller_City
   resources :city
+    
+
+    #Controller_Comment
+    resources :comment
 
 end
